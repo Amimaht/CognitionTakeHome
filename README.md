@@ -111,4 +111,4 @@ tests/              Vitest: permissions, validation, transitions, lock contentio
 
 The KYC queue (`src/app/kyc/page.tsx` + `src/lib/kyc.ts`) is ~60 lines and adds no new components:
 it declares a column list and a query against the shared `DataTable`, `FilterBar`, `StatusBadge`
-and `requirePermission`. See `EVIDENCE.md` for timings.
+and `requirePermission`.
